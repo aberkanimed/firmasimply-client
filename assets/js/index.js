@@ -21,7 +21,7 @@ async function getListadoFirmas() {
 }
 
 async function getNumFirmasHoy() {
-    let res = await Asistencia.getNumFirmasHoy(Auth.getCoder().id);
+    let res = await Asistencia.getNumFirmasHoy();
     console.log(res);
 }
 

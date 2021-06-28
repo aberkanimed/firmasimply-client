@@ -29,7 +29,7 @@ async function crearPildora() {
 }
 
 async function borrarPildora() {
-    let res = await Pildora.borrarPildora(6);
+    let res = await Pildora.borrarPildora(8);
     console.log(res);
 }
 
@@ -37,6 +37,6 @@ async function marcarPildora() {
     let data = {
         estado: 1
     }
-    let res = await Pildora.marcarPildora(data, 6)
+    let res = await Pildora.marcarPildora(data, 8)
     console.log(res);
 }

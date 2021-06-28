@@ -17,8 +17,8 @@ async function firmar(token, data = {}) {
   return await apiCall('POST', hostName + '/api/firmar',token, data);
 };
 
-async function getNumFirmasHoy(token, userId) {
-  return await apiCall('POST', hostName + '/api/numeroFirmasHoy/'+userId, token, null);
+async function getNumFirmasHoy(token) {
+  return await apiCall('POST', hostName + '/api/numeroFirmasHoy', token, null);
 };
 
 // Pildoras

@@ -30,10 +30,9 @@ export default class Asistencia {
 
     /**
      * Devlueve el numero de firmas registradas de hoy
-     * @param {*} coderId
      * @returns
      */
-    static getNumFirmasHoy(coderId) {
-        return getNumFirmasHoy(TOKEN, coderId);
+    static getNumFirmasHoy() {
+        return getNumFirmasHoy(TOKEN);
     }
 }
